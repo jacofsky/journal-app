@@ -15,3 +15,8 @@ main {
 .pointer {
     cursor: pointer;
 }
+
+::selection {
+    color: white;
+    background-color: $primary;
+}
