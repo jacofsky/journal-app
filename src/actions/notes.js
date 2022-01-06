@@ -11,7 +11,6 @@ export const startNewNote = () => {
     return async (dispatch, getState) => {
         
         const uid = getState().auth.uid;
-        console.log(uid) 
 
         const newNote = {
             title: '',
@@ -21,7 +20,6 @@ export const startNewNote = () => {
 
         const doc = await addDoc(collection(db, `${uid}`, "journal/notes"), newNote)
 
-        console.log("Document written with ID: ", doc);
 
         dispatch(activeNote(doc.id, newNote))
         dispatch(addNetNote(doc.id, newNote))

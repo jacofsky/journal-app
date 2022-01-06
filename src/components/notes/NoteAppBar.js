@@ -19,7 +19,6 @@ const NoteAppBar = () => {
     }
 
     const handlePictureClick = () => {
-        console.log('picture')
 
         document.querySelector('#fileSelector').click()
     }
