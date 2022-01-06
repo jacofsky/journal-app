@@ -58,7 +58,7 @@ const LoginScreen = () => {
     }
 
     return (
-        <>
+        <div className='animate__animated animate__fadeIn animate__faster'>
 
 
             <h3 className='auth__tittle'>Login</h3>
@@ -94,29 +94,29 @@ const LoginScreen = () => {
                     </div>
                     
                 </div>
-                
-                
-                
-                
-                <div className='my-4 d-flex justify-content-center align-items-center'>
-                    <hr className='col-5'/>
-                    <p className='text-center col-2'>or</p>   
-                    <hr className='col-5'/>
-                </div>
-
-
-                <div className="d-flex justify-content-center pb-4">
-                    <div className="text-center">
-                        <button onClick={handleGoogleLogin} className='btn btn-outline-secondary'><i className="bi bi-google auth-media"></i></button>
-                    </div>
-                </div>
-
-                <Link to="/auth/register" className='link'>
-                    Create new account
-                </Link>
-                
             </form>
-        </>
+                
+                
+                
+                
+            <div className='my-4 d-flex justify-content-center align-items-center'>
+                <hr className='col-5'/>
+                <p className='text-center col-2'>or</p>   
+                <hr className='col-5'/>
+            </div>
+
+
+            <div className="d-flex justify-content-center pb-4">
+                <div className="text-center">
+                    <button onClick={handleGoogleLogin} className='btn btn-outline-secondary'><i className="bi bi-google auth-media"></i></button>
+                </div>
+            </div>
+
+            <Link to="/auth/register" className='link'>
+                Create new account
+            </Link>
+                
+        </div>
     )
 }
 
