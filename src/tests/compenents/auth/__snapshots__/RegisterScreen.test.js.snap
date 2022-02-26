@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in RegisterScreen should match snapshot 1`] = `
+<div
+  className="animate__animated animate__fadeIn animate__faster"
+>
+  <h3
+    className="auth__tittle"
+  >
+    Register
+  </h3>
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="row mb-3"
+    >
+      <div>
+        <input
+          className="w-100 mb-2 auth__input"
+          name="name"
+          onChange={[Function]}
+          placeholder="Name"
+          type="text"
+          value="Pablin"
+        />
+        <input
+          className="w-100 mb-2 auth__input"
+          name="email"
+          onChange={[Function]}
+          placeholder="Email"
+          type="text"
+          value="Pablis@gmail.com"
+        />
+        <input
+          className="w-100 mt-2 auth__input"
+          name="password"
+          onChange={[Function]}
+          placeholder="Password"
+          type="password"
+          value="123456"
+        />
+        <input
+          className="w-100 mt-2 auth__input"
+          name="password2"
+          onChange={[Function]}
+          placeholder="Confirm password"
+          type="password"
+          value="123456"
+        />
+      </div>
+      <div
+        className="justify-content-center d-flex mt-3"
+      >
+        <button
+          className="auth__button btn w-100"
+          type="submit"
+        >
+          Register 
+          <i
+            className="bi bi-arrow-bar-right"
+          />
+        </button>
+      </div>
+    </div>
+    <a
+      className="link"
+      href="/auth/login"
+      onClick={[Function]}
+    >
+      Already registered?
+    </a>
+  </form>
+</div>
+`;

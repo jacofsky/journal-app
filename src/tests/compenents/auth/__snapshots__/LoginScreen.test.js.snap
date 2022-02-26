@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in LoginScreen should match snapshot 1`] = `
+<div
+  className="animate__animated animate__fadeIn animate__faster"
+>
+  <h3
+    className="auth__tittle"
+  >
+    Login
+  </h3>
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="row"
+    >
+      <div>
+        <input
+          className="w-100 mb-2 auth__input"
+          name="email"
+          onChange={[Function]}
+          placeholder="Email"
+          type="text"
+          value="Pablis@gmail.com"
+        />
+        <input
+          className="w-100 mt-2 auth__input"
+          name="password"
+          onChange={[Function]}
+          placeholder="Password"
+          type="password"
+          value="123456"
+        />
+      </div>
+      <div
+        className="justify-content-center d-flex mt-3"
+      >
+        <button
+          className="auth__button btn w-100 justify-content-center d-flex"
+          disabled={false}
+          type="submit"
+        >
+          <p>
+            Login 
+            <i
+              className="bi bi-arrow-bar-right"
+            />
+          </p>
+        </button>
+      </div>
+    </div>
+  </form>
+  <div
+    className="my-4 d-flex justify-content-center align-items-center"
+  >
+    <hr
+      className="col-5"
+    />
+    <p
+      className="text-center col-2"
+    >
+      or
+    </p>
+    <hr
+      className="col-5"
+    />
+  </div>
+  <div
+    className="d-flex justify-content-center pb-4"
+  >
+    <div
+      className="text-center"
+    >
+      <button
+        className="btn btn-outline-secondary"
+        onClick={[Function]}
+      >
+        <i
+          className="bi bi-google auth-media"
+        />
+      </button>
+    </div>
+  </div>
+  <a
+    className="link"
+    href="/auth/register"
+    onClick={[Function]}
+  >
+    Create new account
+  </a>
+</div>
+`;

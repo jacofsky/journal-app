@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in <JournalEntry /> should show snapshot 1`] = `
+<div
+  className="journal__entry mb-2 pointer animate__animated animate__fadeIn"
+  onClick={[Function]}
+>
+  <div
+    className="journal__entry--picture h-auto"
+    style={
+      Object {
+        "backgroundImage": "url(https://algunlugar.com/foto.jpg)",
+        "backgroundPosition": "center",
+        "backgroundSize": "cover",
+      }
+    }
+  />
+  <div
+    className="journal__entry--body"
+  >
+    <p
+      className="journal__entry--title"
+    >
+      Hola
+    </p>
+    <p
+      className="journal__entry--content"
+    >
+      Mundo
+    </p>
+  </div>
+  <div
+    className="journal__entry-date-box ms-auto pe-3"
+  >
+    <span>
+      Wednesday
+    </span>
+     
+    <h4
+      className="m-0"
+    >
+      31st
+    </h4>
+  </div>
+</div>
+`;
